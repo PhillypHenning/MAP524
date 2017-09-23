@@ -1,2 +1,2 @@
 # MAP524
-Seneca College MAP524 repository
+Simple repo for Seneca college 2017 MAP524 course. 
