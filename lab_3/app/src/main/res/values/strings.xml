@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Mystery Button</string>
+
+    <string-array name="lab_descriptions">
+        <item>Activity</item>
+        <item>AVD</item>
+        <item>ART</item>
+        <item>Dalvik</item>
+        <item>intent</item>
+        <item>intent filter</item>
+        <item>explicit intent</item>
+        <item>implicit intent</item>
+        <item>Logcat</item>
+        <item>bundle</item>
+        <item>Gradle</item>
+        <item>Android Device Monitor</item>
+        <item>SDK manager</item>
+        <item>minSDKVersion</item>
+    </string-array>
+    <string-array name="lab_definitions">
+        <item> - are one of the fundamental building blocks of apps on the Android platform. They serve as the entry point for a user\'s interaction with an app\, and are also central to how a user navigates within an app.</item>
+        <item> - or Android Virtual Device is an emulator configuration that lets you model an actual device by defining hardware and software options to be emulated by the Android Emulator. The Android SDK includes a virtual mobile device emulator that runs on your computer.</item>
+        <item> - or Android Runtime is an application runtime environment used by the Android operating system. Unlike Dalvik\, ART introduces the use of ahead-of-time (AOT) compilation by compiling entire applications into native machine code upon their installation.</item>
+        <item> - is a discontinued process virtual machine in Google\'s Android operating system that executes applications written for Android. Dalvik is an integral part of the Android software stack in Android versions 4.4 "KitKat" and earlier.</item>
+        <item> - can be defined as a simple message objects which is used to communicate from 1 activity to another. Intents define intention of an Application . They are also used to transfer data between activities.</item>
+        <item> - are used to call a specific component. When you know which component you want to launch and you do not want to give the user free control over which component to use.</item>
+        <item> - do not directly specify the Android components which should be called \, it only specifies action to be performed.An Uri can be used with the implicit intent to specify data type.</item>
+        <item> - a command-line tool that dumps a log of system messages\, including stack traces when the device throws an error and messages that you have written from your app with the Log class.</item>
+        <item> - a mapping from String values to various Parcelable types. Bundle is generally used for passing data between various activities of android.</item>
+        <item> in Android Studio\, is a custom build tool used to build android packages (apk files) by managing dependencies and providing custom build logic. APK file (Android Application package) is a specially formatted zip file which contains. Byte code. Resources (images\, UI\, xml etc)</item>
+        <item> - a standalone tool that provides a UI for several Android application debugging and analysis tools.</item>
+        <item> - a software development kit that enables developers to create applications for the Android platform. The Android SDK includes development tools\, an emulator\, and required libraries to build Android applications.</item>
+        <item> specifies the minimum API Level on which the application is able to run. In some cases\, this allows the application to use manifest elements or behaviors defined in the target API Level\, rather than being restricted to using only those defined for the minimum API Level.</item>
+    </string-array>
+</resources>
